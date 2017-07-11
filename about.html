@@ -19,8 +19,15 @@ window.alert("Welcome!")
 <br>
   <h2 style="font-size:125%;text-align:center;">Short Biography:</h2>
 <br>
-  <p1>Hi! My name is Kaitlyn and I am going to be a junior at Saratoga High School. I love to watch movies and travel. My favorite color is blue and I love dogs.</p1>
-  <br>
+ <p id="demo">Hi! My name is Kaitlyn and I am going to be a junior at Saratoga High School. I love to watch movies and travel. My favorite color is blue and I love dogs.</p>
+
+<button type="button" onclick="myFunction()">Click to learn more about me!</button>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hi! My name is Kaitlyn and I am going to be a junior at Saratoga High School. I love to watch movies and travel. My favorite color is blue and I love dogs. I also used to do competitive gymnastics until I got injured and recently I converted to diving. I have an older brother who is going to be a sophomore in college and my favorite subject in school is math. I love to eat good food and spend time with my family."
+}
+</script>
   
 <h3 style="font-size:125%;text-align:center;">Likes and Dislikes:</h3>  
 <p2>I like to do diving and go shopping with my friends. I also like watching Netflix, listening to music, and hanging out with friends. Some things that I dislike are reading and doing the chores.</p2> 
